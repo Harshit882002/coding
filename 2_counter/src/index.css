@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+  background-color: mediumvioletred;
+}
+#main{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+h1{
+  font-size: 40px;
+  
+}
+h3{
+  font-size: 20px;
+  margin-top: 6px;
+  
+}
+button{
+  padding: 7px 13px;
+  margin-top: 15px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#btn1{
+ margin-left: -12px;
+}
+#btn2{
+ margin-left: 8px;
+}
