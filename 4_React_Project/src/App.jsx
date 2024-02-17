@@ -23,13 +23,13 @@ const App = () => {
             onClick={() => setColer("yellow")}
             >Yellow</button>
 
-            <button className='outline-none px-4 py-1 rounded-xl text-white shadow-lg' style={{backgroundColor:"#191970"}}
-            onClick={() => setColer("#191970")}
-            >Midnight Blue</button>
+            <button className='outline-none px-4 py-1 rounded-xl text-white shadow-lg' style={{backgroundColor:"#800000"}}
+            onClick={() => setColer("#800000")}
+            >Maroon</button>
 
-            <button className='outline-none px-4 py-1 rounded-xl text-white shadow-lg' style={{backgroundColor:"#FFC0CB"}}
-            onClick={() => setColer("#FFC0CB")}
-            >Pink</button>
+            <button className='outline-none px-4 py-1 rounded-xl text-white shadow-lg' style={{backgroundColor:"#708090"}}
+            onClick={() => setColer("#708090")}
+            >SlateGray</button>
 
             <button className='outline-none px-4 py-1 rounded-xl text-white shadow-lg' style={{backgroundColor:"#800080"}}
             onClick={() => setColer("#800080")}
