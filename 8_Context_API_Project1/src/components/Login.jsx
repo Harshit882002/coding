@@ -13,10 +13,12 @@ const Login = () => {
     };
     
     return (
-        <div>
+        <div className='flex items-center justify-center gap-5'>
             <h2>Log In</h2>
+            <label htmlFor="">Username</label>
             <input 
                 
+                className=''
                 value={username} 
                 onChange={(e) => setUsername(e.target.value)} 
                 type="text" 
