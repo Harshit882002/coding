@@ -13,24 +13,29 @@ const Login = () => {
     };
     
     return (
-        <div className='flex items-center justify-center gap-5'>
-            <h2>Log In</h2>
-            <label htmlFor="">Username</label>
+        <div className='w-full p-5'>
+            <h2 className='text-3xl font-semibold text-center mt-1 mb-5'>Log In</h2>
+           <div className='flex flex-col'>
+            <label className='w-full py-1' htmlFor="username">Username</label>
             <input 
-                
-                className=''
+                id='username'
+                className='w-full border-2 py-1 px-2 border-1 rounded-md mb-3'
                 value={username} 
                 onChange={(e) => setUsername(e.target.value)} 
                 type="text" 
                 placeholder='Enter Username' 
             />
+            <label className='w-full py-1' htmlFor="password">Password</label>
             <input 
+                id='password'
+                className='w-full py-1 px-2 border-1'
                 value={password} 
                 onChange={(e) => setPassword(e.target.value)} 
                 type="password" 
                 placeholder='Enter Password' 
             />
-            <button onClick={handleSubmit}>Submit</button>
+            <button className='w-full py-1 px-2 border-black bg-[mediumvioletred] rounded-lg mt-10 text-white' onClick={handleSubmit}>Submit</button>
+        </div>
         </div>
     );
 };
