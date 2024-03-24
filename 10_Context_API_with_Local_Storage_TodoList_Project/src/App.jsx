@@ -29,7 +29,6 @@ const App = () => {
                     <div className="flex flex-wrap gap-y-3">
                         {/*Loop and Add TodoItem here */}
                         
-                        
                     </div>
                 </div>
             </div>
